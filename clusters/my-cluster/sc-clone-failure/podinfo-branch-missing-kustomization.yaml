@@ -2,7 +2,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: podinfo-branch-missing
+  name: dh3892dsk
   namespace: flux-system
 spec:
   interval: 5m0s
@@ -10,5 +10,5 @@ spec:
   prune: false
   sourceRef:
     kind: GitRepository
-    name: podinfo-branch-missing
+    name: hd2839dh
 

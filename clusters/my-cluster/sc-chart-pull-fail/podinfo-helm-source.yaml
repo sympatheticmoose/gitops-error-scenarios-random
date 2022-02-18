@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
-  name: podinfo-helm
+  name: h892d3hg
   namespace: flux-system
 spec:
   interval: 10m0s
