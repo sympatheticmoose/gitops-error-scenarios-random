@@ -1,0 +1,12 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: podinfo-semver-mismatch
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  ref:
+    semver: '>=v0.1 <v0.3'
+  url: https://github.com/sympatheticmoose/podinfo-deploy
+
