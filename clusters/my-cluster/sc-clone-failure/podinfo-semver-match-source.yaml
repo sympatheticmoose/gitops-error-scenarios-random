@@ -7,6 +7,6 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    semver: '>=v0.1 <v0.3'
+    semver: '>=0.1 <0.3'
   url: https://github.com/sympatheticmoose/podinfo-deploy
 
