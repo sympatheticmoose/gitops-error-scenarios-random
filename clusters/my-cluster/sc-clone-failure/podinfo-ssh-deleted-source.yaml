@@ -8,5 +8,5 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: ssh://git@github.com/sympatheticmoose/podinfo-deploy
+  url: ssh://git@github.com:sympatheticmoose/podinfo-deploy
 
