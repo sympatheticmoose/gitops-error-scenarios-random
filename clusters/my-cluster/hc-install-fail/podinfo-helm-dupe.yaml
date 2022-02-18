@@ -12,4 +12,5 @@ spec:
         kind: GitRepository
         name: podinfo-helm-2
   interval: 1m0s
+  targetNamespace: flux-system
 
