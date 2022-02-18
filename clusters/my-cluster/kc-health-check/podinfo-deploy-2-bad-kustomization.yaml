@@ -7,6 +7,7 @@ metadata:
 spec:
   interval: 1m0s
   path: ./
+  wait: true
   prune: false
   sourceRef:
     kind: GitRepository
